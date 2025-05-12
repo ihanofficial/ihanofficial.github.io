@@ -103,41 +103,120 @@
 
 
       <div class="flex-container">
-        <div class="container index">
-  <div class="post-list">
-    <!-- 遍历渲染文章 -->
-    
-      <div class="post-item" title="">
-        <div class="time-m-d">2025-05-12</div>
-        <div class="title">
-          <a href="/2025/05/12/%5BGEMTalking%5DIAG20231207-%E5%B9%BF%E5%B7%9Etalking/">
-            
-              <span>untitled</span>
-            
-          </a>
-        </div>
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title"></div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2025-05-12 15:21:01
+        </span>
+        
       </div>
-    
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">2025-05-12</div>
-        <div class="title">
-          <a href="/2025/05/12/hello-world/">
+      <div class="markdown-body">
+        <h1 id="Part1"><a href="#Part1" class="headerlink" title="Part1"></a>Part1</h1><p>广州你们好吗！<br>哇！ 距离我上一个巡演 已经六年八个月了<br>我其实非常的怀念在广州开巡演的感觉 好劲啊你啲（好厉害啊你们）<br>有没有人六年八个月之前来了我上一个巡演的首站广州啊 有没有<br>但是 当时我们是在体育馆里面连开两场 所以今天晚上一定有新朋友<br>因为连开两场都没有今天晚上这个体育场多呢<br>正式欢迎大家来到IAG世界巡回演唱会首站广州<br>Hello大家好我是GEM邓紫棋<br>好热啊 是你们太热情了吗 喝一口水行不行啊 要跪下来喝水 为什么 因为我穿了一个极其高的高跟鞋 然后现在我要转过去再站起来 不然我会走光<br>其实啊 我在网路上面我经常冲浪 所以我其实看到许多我的歌迷朋友给我留言 就说过去的这几年虽然我没有开巡演 但是我的音乐一直陪伴着在座的某些朋友 渡过你们生命里边一些困难的时候<br>所以我有一个感触就是 虽然生活不容易 但是我们就是要在乱世里相爱 送给你们光年之外 </p>
+<h1 id="Part2"><a href="#Part2" class="headerlink" title="Part2"></a>Part2</h1><p>有时候真的会想远走高飞<br>但是有时候就会想到你们<br>刚刚的几首歌 都是在过去几年间有时候当我的内心有一些我觉得没有人听见的呐喊 我就会把它写到我的歌里<br>不是最近不是有那个什么十六那个人格那个m什么东西 很火吗<br>然后呢我呢 是infp 很多人发现原来邓紫棋是个i 都觉得 啊？不像啊<br>大家都觉得我是个e人是吧<br>我其实有很多时候在舞台上面</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
             
-              
-                <span>Hello World</span>
-              
+              <a href="/2025/05/12/hello-world/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
             
-          </a>
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2025-05-12 15:21:01
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
+      
+    </div>
+    
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Part1"><span class="toc-text">Part1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Part2"><span class="toc-text">Part2</span></a></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
+    
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+
 
         
 <div class="footer">
@@ -394,6 +473,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' +  + '&url=' + http%3A%2F%2Fexample.com%2F2025%2F05%2F12%2F%5BGEMTalking%5DIAG20231207-%25E5%25B9%25BF%25E5%25B7%259Etalking%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2025/05/12/[GEMTalking]IAG20231207-%E5%B9%BF%E5%B7%9Etalking/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
