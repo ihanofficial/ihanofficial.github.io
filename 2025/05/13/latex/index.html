@@ -13,7 +13,7 @@
   
   <title>
     
-      归档 
+      熵权法 
       
       
       |
@@ -108,50 +108,107 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2025</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">熵权法</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+          2025-05-13 00:54:45
+        </span>
+        
+      </div>
+      <div class="markdown-body">
+        <p>对于极大型指标：指标越大越好，不需要正向化。只需要通过min-max规约或Z-score规约进行规约即可。</p>
+<p>对于极小型指标：此类指标越小越好。它的正向化方式比较简单，可以取相反数；如果指标全部为正数，也可以取其倒数。</p>
+<p>对于区间型指标：它的规约方法遵循下面的式子。</p>
+<p>$$x_{\text{new}} &#x3D;<br>\begin{cases}<br>1 - \frac{a - x}{M}, &amp; x &lt; a \<br>1, &amp; a \leq x \leq b \<br>1 - \frac{x - b}{M}, &amp; x &gt; b<br>\end{cases}<br>$$</p>
+<p>对于中值型指标：它的正向化操作为以下式子<br>$$<br>x_{\text{new}} &#x3D; 1-\frac{\vert x - x_{\text{best}}\vert}{\max(\vert x - x_{\text{best}}\vert)}<br>$$</p>
+<p>在进行指标正向化以后，所有的指标全部被变换为越大越好。而为了进一步消除量纲这些的影响，需要进一步进行min-max规约化或z-score规约化消除量纲差异。</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+              2025-05-13 00:54:45
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+              <a href="/2025/05/13/hello-world/" target="_self">
+                <span>下一页</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
+            
+          </div>
         </div>
       
-      <div class="post-item" title="IAG广州d1Talking">
-        <div class="time-m-d">05-13</div>
-        <div class="title">
-          <a href="/2025/05/13/20250512test/">
-            <span>IAG广州d1Talking</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">05-13</div>
-        <div class="title">
-          <a href="/2025/05/13/hello-world/">
-            <span>Hello World</span>
-          </a>
-        </div>
-      </div>
+
     
-      <div class="post-item" title="熵权法">
-        <div class="time-m-d">05-13</div>
-        <div class="title">
-          <a href="/2025/05/13/latex/">
-            <span>熵权法</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -408,6 +465,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E7%86%B5%E6%9D%83%E6%B3%95 + '&url=' + http%3A%2F%2Fexample.com%2F2025%2F05%2F13%2Flatex%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2025/05/13/latex/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
