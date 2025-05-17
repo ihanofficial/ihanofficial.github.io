@@ -41,7 +41,7 @@
       <link href="/e8d66bd958ba/"/>
       <url>/e8d66bd958ba/</url>
       
-        <content type="html"><![CDATA[<p>层次分析法AHP</p><p>To be continued… </p>]]></content>
+        <content type="html"><![CDATA[<p>层次分析法AHP</p><p>AHP是一种以辩证思维过程为参考的多准则评价方法，体现了人类思维活动的基本特征与发展过程（分解、判断、排序和综合）</p><h1 id="层次分析法的原理"><a href="#层次分析法的原理" class="headerlink" title="层次分析法的原理"></a>层次分析法的原理</h1><ol><li>将研究对象划分为递阶的层次结构，同一层次的各元素具有大致相等的地位，不同层次的元素间具有某种联系。</li><li>对单层次的元素构造判断矩阵，得到层次单排序，并对其进行一致性检验。</li><li>采用逐层叠加的方法，由高到低计算出所有层次对最高层次的总排序值。</li><li>逐层递推的结果和总排序值也需要做一致性检验，通过后评估总结果。</li></ol><p>实施程序如图1</p><pre class="mermaid">flowchart LR    A[目标概念化] --> B[构造层次结构模型]    B --> C[建立判断矩阵]    C --> D[单层排序计算相对权重]    D --> E[单层一致性检验]    E --> F{是否通过}    F -->|是| G[总排序计算合成权重]    G --> H[总判断一致性检验]    H --> I{是否通过}    I -->|是| J[评估总结果]    I -->|否| B    F -->|否| A</pre><p>To be continued… </p>]]></content>
       
       
       <categories>
