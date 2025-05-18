@@ -171,7 +171,7 @@
       <div class="post-attach">
         <span class="post-pubtime">
           <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-          2025-05-17 19:34:16
+          2025-05-18 05:23:07
         </span>
         
               <span class="post-categories">
@@ -222,8 +222,25 @@
           
       </div>
       <div class="markdown-body">
-        <p>主成分分析法PCA</p>
-<p>To be continued…</p>
+        <p>主成分分析(PCA)是一种无监督学习,通过线性变换来实现数据降维,并尽可能保留信息量(数据的方差).</p>
+<h1 id="主成分分析的原理"><a href="#主成分分析的原理" class="headerlink" title="主成分分析的原理"></a>主成分分析的原理</h1><p>对源数据进行分析,找到一组能够捕捉数据中最大变异性的坐标轴,并使用更少的维度来近似拟合原始数据.</p>
+<h1 id="主成分分析的步骤"><a href="#主成分分析的步骤" class="headerlink" title="主成分分析的步骤"></a>主成分分析的步骤</h1><ol>
+<li><p>数据去中心化:<br><br>对数据表X中的每个属性减去这一列的均值, 消除数据平均水平对数据表的影响.</p>
+</li>
+<li><p>求协方差矩阵 $C_1$<br>$$C &#x3D; \frac{1}{n-1}\overline{X}^T\overline{X} $$</p>
+</li>
+<li><p>对 $C_1$ 进行特征值分解<br>$$C &#x3D; Q\sum{Q^T}$$</p>
+</li>
+<li><p>对特征值排序: 挑选更大的k个特征值,将特征值向量组成矩阵P</p>
+</li>
+<li><p>对矩阵 $P$ 进行线性变换 $F&#x3D;PX$ 得到主成分分析后的矩阵. 矩阵的列为一个主成分,特征值经过归一化就为权重.</p>
+</li>
+</ol>
+<blockquote>
+<p>注意: 实际上,PCA的底层做矩阵分解时更多使用奇异值分析(SVD).</p>
+</blockquote>
+<p>Reference::<br><a target="_blank" rel="noopener" href="https://datawhalechina.github.io/intro-mathmodel/#/CH7/%E7%AC%AC7%E7%AB%A0-%E6%9D%83%E9%87%8D%E7%94%9F%E6%88%90%E4%B8%8E%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B?id=_77-%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90%e6%b3%95">https://datawhalechina.github.io/intro-mathmodel/#/CH7/%E7%AC%AC7%E7%AB%A0-%E6%9D%83%E9%87%8D%E7%94%9F%E6%88%90%E4%B8%8E%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B?id=_77-%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90%e6%b3%95</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_54700138/article/details/146046975">https://blog.csdn.net/qq_54700138/article/details/146046975</a></p>
 
       </div>
       
@@ -239,7 +256,7 @@
           <div class="post-attach">
             <span class="post-pubtime">
               <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-              2025-05-17 19:34:16
+              2025-05-18 05:23:07
             </span>
             
                   <span class="post-categories">
@@ -301,6 +318,23 @@
       
     </div>
     
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E7%9A%84%E5%8E%9F%E7%90%86"><span class="toc-text">主成分分析的原理</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E7%9A%84%E6%AD%A5%E9%AA%A4"><span class="toc-text">主成分分析的步骤</span></a></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
 
     
       <div class="comments-container">

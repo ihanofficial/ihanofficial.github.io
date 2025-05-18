@@ -35,7 +35,7 @@
       <link href="/e1753a0503c5/"/>
       <url>/e1753a0503c5/</url>
       
-        <content type="html"><![CDATA[<p>主成分分析法PCA</p><p>To be continued…</p>]]></content>
+        <content type="html"><![CDATA[<p>主成分分析(PCA)是一种无监督学习,通过线性变换来实现数据降维,并尽可能保留信息量(数据的方差).</p><h1 id="主成分分析的原理"><a href="#主成分分析的原理" class="headerlink" title="主成分分析的原理"></a>主成分分析的原理</h1><p>对源数据进行分析,找到一组能够捕捉数据中最大变异性的坐标轴,并使用更少的维度来近似拟合原始数据.</p><h1 id="主成分分析的步骤"><a href="#主成分分析的步骤" class="headerlink" title="主成分分析的步骤"></a>主成分分析的步骤</h1><ol><li><p>数据去中心化:<br><br>对数据表X中的每个属性减去这一列的均值, 消除数据平均水平对数据表的影响.</p></li><li><p>求协方差矩阵 $C_1$<br>$$C &#x3D; \frac{1}{n-1}\overline{X}^T\overline{X} $$</p></li><li><p>对 $C_1$ 进行特征值分解<br>$$C &#x3D; Q\sum{Q^T}$$</p></li><li><p>对特征值排序: 挑选更大的k个特征值,将特征值向量组成矩阵P</p></li><li><p>对矩阵 $P$ 进行线性变换 $F&#x3D;PX$ 得到主成分分析后的矩阵. 矩阵的列为一个主成分,特征值经过归一化就为权重.</p></li></ol><blockquote><p>注意: 实际上,PCA的底层做矩阵分解时更多使用奇异值分析(SVD).</p></blockquote><p>Reference::<br><a href="https://datawhalechina.github.io/intro-mathmodel/#/CH7/%E7%AC%AC7%E7%AB%A0-%E6%9D%83%E9%87%8D%E7%94%9F%E6%88%90%E4%B8%8E%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B?id=_77-%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90%e6%b3%95">https://datawhalechina.github.io/intro-mathmodel/#/CH7/%E7%AC%AC7%E7%AB%A0-%E6%9D%83%E9%87%8D%E7%94%9F%E6%88%90%E4%B8%8E%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B?id=_77-%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90%e6%b3%95</a></p><p><a href="https://blog.csdn.net/qq_54700138/article/details/146046975">https://blog.csdn.net/qq_54700138/article/details/146046975</a></p>]]></content>
       
       
       <categories>
@@ -68,7 +68,7 @@
       <link href="/e8d66bd958ba/"/>
       <url>/e8d66bd958ba/</url>
       
-        <content type="html"><![CDATA[<p>层次分析法AHP</p><p>AHP是一种以辩证思维过程为参考的多准则评价方法，体现了人类思维活动的基本特征与发展过程（分解、判断、排序和综合）</p><h1 id="层次分析法的原理"><a href="#层次分析法的原理" class="headerlink" title="层次分析法的原理"></a>层次分析法的原理</h1><ol><li>将研究对象划分为递阶的层次结构，同一层次的各元素具有大致相等的地位，不同层次的元素间具有某种联系。</li><li>对单层次的元素构造判断矩阵，得到层次单排序，并对其进行一致性检验。</li><li>采用逐层叠加的方法，由高到低计算出所有层次对最高层次的总排序值。</li><li>逐层递推的结果和总排序值也需要做一致性检验，通过后评估总结果。</li></ol><p>实施程序如图1</p><pre class="mermaid">flowchart LR    A[目标概念化] --> B[构造层次结构模型]    B --> C[建立判断矩阵]    C --> D[单层排序计算相对权重]    D --> E[单层一致性检验]    E --> F{是否通过}    F -->|是| G[总排序计算合成权重]    G --> H[总判断一致性检验]    H --> I{是否通过}    I -->|是| J[评估总结果]    I -->|否| B    F -->|否| A</pre><p>To be continued… </p>]]></content>
+        <content type="html"><![CDATA[<p>层次分析法AHP</p><p>AHP是一种以辩证思维过程为参考的多准则评价方法，体现了人类思维活动的基本特征与发展过程（分解、判断、排序和综合）</p><h1 id="层次分析法的原理"><a href="#层次分析法的原理" class="headerlink" title="层次分析法的原理"></a>层次分析法的原理</h1><ol><li>将研究对象划分为递阶的层次结构，同一层次的各元素具有大致相等的地位，不同层次的元素间具有某种联系。</li><li>对单层次的元素构造判断矩阵，得到层次单排序，并对其进行一致性检验。</li><li>采用逐层叠加的方法，由高到低计算出所有层次对最高层次的总排序值。</li><li>逐层递推的结果和总排序值也需要做一致性检验，通过后评估总结果。</li></ol><p>实施程序如图1</p><pre class="mermaid">flowchart TD    A[目标概念化] --> B[构造层次结构模型]    B --> C[建立判断矩阵]    C --> D[单层排序计算相对权重]    D --> E[单层一致性检验]    E --> F{是否通过}    F -->|是| G[总排序计算合成权重]    G --> H[总判断一致性检验]    H --> I{是否通过}    I -->|是| J[评估总结果]    I -->|否| B    F -->|否| A</pre><p>To be continued… </p>]]></content>
       
       
       <categories>
