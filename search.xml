@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>斯皮尔曼系数Spearman Correlation Coefficient</title>
+      <link href="/8a8d1c459cb8/"/>
+      <url>/8a8d1c459cb8/</url>
+      
+        <content type="html"><![CDATA[<p>计算公式：</p><p>对于样本容量为n的样本，n个原始数据被转换为等级数据，相关系数$\rho$ 为：</p><p>$$\rho &#x3D; \frac{\sum_i(x_i-\overline x)}{\sqrt{\sum_i{(x_i-\overline x)}^2 \sum_i{(y_i-\overline y)}^2}}$$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 统计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学建模 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Matplotlib库解决中文乱码问题</title>
       <link href="/377b963a574d/"/>
       <url>/377b963a574d/</url>
