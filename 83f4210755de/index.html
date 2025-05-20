@@ -13,7 +13,7 @@
   
   <title>
     
-      archive_a: 2025 
+      委托代理与激励 
       
       
       |
@@ -122,95 +122,234 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2025</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">委托代理与激励</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2025-05-20 01:07:47
+        </span>
+        
+              <span class="post-categories">
+                <i class="iconfont icon-bookmark" title="Categories"></i>
+                
+                <span class="span--category">
+                  <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/" title="考研复习">
+                    <b>#</b> 考研复习
+                  </a>
+                </span>
+                
+                <span class="span--category">
+                  <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%AF%BE/" title="专业课">
+                    <b>#</b> 专业课
+                  </a>
+                </span>
+                
+                <span class="span--category">
+                  <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BF%A1%E6%81%AF%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="信息经济学">
+                    <b>#</b> 信息经济学
+                  </a>
+                </span>
+                
+                <span class="span--category">
+                  <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="经济学">
+                    <b>#</b> 经济学
+                  </a>
+                </span>
+                
+                <span class="span--category">
+                  <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E4%BF%A1%E6%81%AF%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="信息经济学">
+                    <b>#</b> 信息经济学
+                  </a>
+                </span>
+                
+              </span>
+          
+              <span class="post-tags">
+                <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                
+                <span class="span--tag mr-8">
+                  <a href="/tags/%E4%BF%A1%E6%81%AF%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="信息经济学">
+                    #信息经济学
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <p>委托代理关系：信息不对称的契约双方都存在委托代理关系，无论这种契约是显性的还是隐性的。</p>
+<p>显性契约：企业与债券持有者或贷款人之间明确承诺企业在未来特定日期支付特地量的现金流或服务。</p>
+<p>隐性契约：无论是否有约束都按照规定做，主要是道德规范。</p>
+<blockquote>
+<p>[!QUESTION] 残差拥有权<br>Contents</p>
+</blockquote>
+<p>构成委托代理关系的基本条件：</p>
+<ol>
+<li>市场上存在两个相互独立的个体，且双方都是在约束条件下效用最大化者。</li>
+<li>代理人与委托人都面对市场的不确定性和风险，且二者掌握的信息处于非对称状态。</li>
+</ol>
+<p>委托代理的基本模式：</p>
+<table>
+<thead>
+<tr>
+<th>博弈模型</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单个委托人与单个代理人</td>
+<td>医生和病人</td>
+</tr>
+<tr>
+<td>单个委托人和复合代理人</td>
+<td>中央政府与若干个垄断性国有企业</td>
+</tr>
+<tr>
+<td>复合委托人和单个代理人</td>
+<td>计算机用户和ISP</td>
+</tr>
+<tr>
+<td>复合委托人和复合代理人</td>
+<td>保险市场多家保险公司争夺众多投保人</td>
+</tr>
+<tr>
+<td>互为委托人和代理人</td>
+<td>恋爱双方</td>
+</tr>
+</tbody></table>
+<p>激励相容约束</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/8a8d1c459cb8/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2025-05-20 01:07:47
+            </span>
+            
+                  <span class="post-categories">
+                    <i class="iconfont icon-bookmark" title="Categories"></i>
+                    
+                    <span class="span--category">
+                      <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/" title="考研复习">
+                        <b>#</b> 考研复习
+                      </a>
+                    </span>
+                    
+                    <span class="span--category">
+                      <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%AF%BE/" title="专业课">
+                        <b>#</b> 专业课
+                      </a>
+                    </span>
+                    
+                    <span class="span--category">
+                      <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BF%A1%E6%81%AF%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="信息经济学">
+                        <b>#</b> 信息经济学
+                      </a>
+                    </span>
+                    
+                    <span class="span--category">
+                      <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="经济学">
+                        <b>#</b> 经济学
+                      </a>
+                    </span>
+                    
+                    <span class="span--category">
+                      <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E4%BF%A1%E6%81%AF%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="信息经济学">
+                        <b>#</b> 信息经济学
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                    
+                    <span class="span--tag mr-8">
+                      <a href="/tags/%E4%BF%A1%E6%81%AF%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="信息经济学">
+                        #信息经济学
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="委托代理与激励">
-        <div class="time-m-d">05-20</div>
-        <div class="title">
-          <a href="/83f4210755de/">
-            <span>委托代理与激励</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="斯皮尔曼系数Spearman Correlation Coefficient">
-        <div class="time-m-d">05-19</div>
-        <div class="title">
-          <a href="/8a8d1c459cb8/">
-            <span>斯皮尔曼系数Spearman Correlation Coefficient</span>
-          </a>
-        </div>
-      </div>
+
     
-      <div class="post-item" title="Matplotlib库解决中文乱码问题">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/377b963a574d/">
-            <span>Matplotlib库解决中文乱码问题</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【数学建模】主成分分析法PCA">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/e1753a0503c5/">
-            <span>【数学建模】主成分分析法PCA</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【数学建模】层次分析法AHP">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/e8d66bd958ba/">
-            <span>【数学建模】层次分析法AHP</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="数据库绪论">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/2158c955906e/">
-            <span>数据库绪论</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="10 信息政策与信息法律">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/607744159621/">
-            <span>10 信息政策与信息法律</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="test">
-        <div class="time-m-d">05-15</div>
-        <div class="title">
-          <a href="/8d25ac223e66/">
-            <span>test</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -488,6 +627,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E5%A7%94%E6%89%98%E4%BB%A3%E7%90%86%E4%B8%8E%E6%BF%80%E5%8A%B1 + '&url=' + https%3A%2F%2Fihanofficial.github.io%2F83f4210755de%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://ihanofficial.github.io/83f4210755de/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
