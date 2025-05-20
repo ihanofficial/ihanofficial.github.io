@@ -13,11 +13,6 @@
   
   <title>
     
-      archive_a: 2025 
-      
-      
-      |
-    
      iHan&#39;s Blog
   </title>
 
@@ -122,104 +117,106 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2025</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title"></div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2025-05-20 01:02:30
+        </span>
+        
+      </div>
+      <div class="markdown-body">
+        
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/8a8d1c459cb8/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2025-05-20 01:02:30
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+              <a href="/a6ee69fa478c/" target="_self">
+                <span>Next</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
+            
+          </div>
         </div>
       
-      <div class="post-item" title="">
-        <div class="time-m-d">05-20</div>
-        <div class="title">
-          <a href="/a6ee69fa478c/">
-            <span></span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="">
-        <div class="time-m-d">05-20</div>
-        <div class="title">
-          <a href="/8be1c75c3247/">
-            <span></span>
-          </a>
-        </div>
-      </div>
+
     
-      <div class="post-item" title="斯皮尔曼系数Spearman Correlation Coefficient">
-        <div class="time-m-d">05-19</div>
-        <div class="title">
-          <a href="/8a8d1c459cb8/">
-            <span>斯皮尔曼系数Spearman Correlation Coefficient</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Matplotlib库解决中文乱码问题">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/377b963a574d/">
-            <span>Matplotlib库解决中文乱码问题</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【数学建模】主成分分析法PCA">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/e1753a0503c5/">
-            <span>【数学建模】主成分分析法PCA</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【数学建模】层次分析法AHP">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/e8d66bd958ba/">
-            <span>【数学建模】层次分析法AHP</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="数据库绪论">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/2158c955906e/">
-            <span>数据库绪论</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="10 信息政策与信息法律">
-        <div class="time-m-d">05-17</div>
-        <div class="title">
-          <a href="/607744159621/">
-            <span>10 信息政策与信息法律</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="test">
-        <div class="time-m-d">05-15</div>
-        <div class="title">
-          <a href="/8d25ac223e66/">
-            <span>test</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -497,6 +494,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' +  + '&url=' + https%3A%2F%2Fihanofficial.github.io%2F8be1c75c3247%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://ihanofficial.github.io/8be1c75c3247/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
