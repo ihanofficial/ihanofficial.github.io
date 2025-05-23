@@ -264,6 +264,29 @@
 
 
 
+  <div id="gitalk-container"></div>
+
+  <script>
+    function loadGitalkSuc() {
+      const gitalk = new Gitalk({
+        clientID: 'Ov23li6Sn9H5Pw8X8VPl',
+        clientSecret: '41b54594a4a116dd1e6d79320493a3b161ffa875',
+        repo: 'ihanofficial.github.io',
+        owner: 'ihanofficial',
+        admin: ['ihanofficial'],
+        id: location.pathname,
+        distractionFreeMode: false
+      })
+
+      gitalk.render('gitalk-container')
+    }
+  </script>
+  
+    <link rel="stylesheet" href="/plugins/gitalk.css">
+    <script type="text/javascript" src="/plugins/gitalk.min.js" onload="loadGitalkSuc(this)"></script>
+  
+
+
 
       </div>
     
