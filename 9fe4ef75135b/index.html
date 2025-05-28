@@ -13,7 +13,7 @@
   
   <title>
     
-      【数学建模】主成分分析法PCA 
+      【外刊精读分享】＂原水热潮＂：一种超越现代净化体系的自然主义尝试 
       
       
       |
@@ -167,11 +167,11 @@
   <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
   <div class="container post-details" id="post-details">
     <div class="post-content">
-      <div class="post-title">【数学建模】主成分分析法PCA</div>
+      <div class="post-title">【外刊精读分享】＂原水热潮＂：一种超越现代净化体系的自然主义尝试</div>
       <div class="post-attach">
         <span class="post-pubtime">
           <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-          2025-05-28 08:05:30
+          2025-05-28 08:04:42
         </span>
         
               <span class="post-categories">
@@ -184,20 +184,8 @@
                 </span>
                 
                 <span class="span--category">
-                  <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%AF%BE/" title="专业课">
-                    <b>#</b> 专业课
-                  </a>
-                </span>
-                
-                <span class="span--category">
-                  <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BF%A1%E6%81%AF%E5%88%86%E6%9E%90/" title="信息分析">
-                    <b>#</b> 信息分析
-                  </a>
-                </span>
-                
-                <span class="span--category">
-                  <a href="/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" title="数学建模">
-                    <b>#</b> 数学建模
+                  <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/" title="英语复习">
+                    <b>#</b> 英语复习
                   </a>
                 </span>
                 
@@ -207,14 +195,8 @@
                 <i class="iconfont icon-tags mr-10" title="Tags"></i>
                 
                 <span class="span--tag mr-8">
-                  <a href="/tags/%E4%BF%A1%E6%81%AF%E5%88%86%E6%9E%90/" title="信息分析">
-                    #信息分析
-                  </a>
-                </span>
-                
-                <span class="span--tag mr-8">
-                  <a href="/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" title="数学建模">
-                    #数学建模
+                  <a href="/tags/%E5%A4%96%E5%88%8A%E7%B2%BE%E8%AF%BB/" title="外刊精读">
+                    #外刊精读
                   </a>
                 </span>
                 
@@ -222,32 +204,55 @@
           
       </div>
       <div class="markdown-body">
-        <p>主成分分析(PCA)是一种无监督学习,通过线性变换来实现数据降维,并尽可能保留信息量(数据的方差).</p>
-<h1 id="主成分分析的原理"><a href="#主成分分析的原理" class="headerlink" title="主成分分析的原理"></a>主成分分析的原理</h1><p>对源数据进行分析,找到一组能够捕捉数据中最大变异性的坐标轴,并使用更少的维度来近似拟合原始数据.</p>
-<h1 id="主成分分析的步骤"><a href="#主成分分析的步骤" class="headerlink" title="主成分分析的步骤"></a>主成分分析的步骤</h1><ol>
-<li><p>数据去中心化:<br><br>对数据表X中的每个属性减去这一列的均值, 消除数据平均水平对数据表的影响.</p>
-</li>
-<li><p>求协方差矩阵 $C_1$<br>$$C &#x3D; \frac{1}{n-1}\overline{X}^T\overline{X} $$</p>
-</li>
-<li><p>对 $C_1$ 进行特征值分解<br>$$C &#x3D; Q\sum{Q^T}$$</p>
-</li>
-<li><p>对特征值排序: 挑选更大的k个特征值,将特征值向量组成矩阵P</p>
-</li>
-<li><p>对矩阵 $P$ 进行线性变换 $F&#x3D;PX$ 得到主成分分析后的矩阵. 矩阵的列为一个主成分,特征值经过归一化就为权重.</p>
-</li>
-</ol>
-<blockquote>
-<p>注意: 实际上,PCA的底层做矩阵分解时更多使用奇异值分析(SVD).</p>
-</blockquote>
-<p>Reference::<br><a target="_blank" rel="noopener" href="https://datawhalechina.github.io/intro-mathmodel/#/CH7/%E7%AC%AC7%E7%AB%A0-%E6%9D%83%E9%87%8D%E7%94%9F%E6%88%90%E4%B8%8E%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B?id=_77-%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90%e6%b3%95">https://datawhalechina.github.io/intro-mathmodel/#/CH7/%E7%AC%AC7%E7%AB%A0-%E6%9D%83%E9%87%8D%E7%94%9F%E6%88%90%E4%B8%8E%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B?id=_77-%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90%e6%b3%95</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_54700138/article/details/146046975">https://blog.csdn.net/qq_54700138/article/details/146046975</a></p>
+        <p><strong>Original Title: For Those Who Don’t Trust Tap, There’s ‘Raw Water’</strong><br>The highway that winds along the coast of Marin County offers some of California’s most magnificent vistas, with the deep blue Pacific Ocean glittering through veils of fog.</p>
+<p>But for a handful of travelers, the views aren’t the prize.</p>
+<p>At one blink-and-you’ll-miss-it pullout is a natural spring that draws people from across the San Francisco Bay Area, some of whom drive hours through traffic to get there.</p>
+<p>Many of them reject water from any other source and drink only what they say is “liquid gold” that gushes from the copper pipes of Red Rock Spring.</p>
+<p>“To me, it feels more alive,” said Samantha Reich, who collected 50 gallons in water-cooler jugs that she strapped into her sedan with seatbelts on a recent morning.</p>
+<p>Ms. Reich, 27, is among a small number of spring water aficionados who believe untreated water, or “raw water,” contains enriching minerals that are removed from tap water during the purification process.</p>
+<p>Many of the spring’s die-hard fans are part of the so-called health freedom movement, which opposes government public health interventions, including vaccine mandates, pasteurized milk and fluoridated water.</p>
+<p>They now have a powerful ally in Robert F. Kennedy Jr., who espouses many of the same views, including opposition to fluoridated water, and who is President-elect Donald J. Trump’s pick to lead the Health and Human Services Department.</p>
+<p>(Mr. Kennedy has yet to say whether he advocates drinking raw water.)</p>
+<p>The trend, however, alarms health experts, who say that spring water devotees are taking unnecessary risks.</p>
+<p>The country’s robust water treatment system, they emphasize, eliminates potentially deadly bacteria and parasites, and removes toxins that can cause cancer or harm children’s brain development.</p>
+<p>Nonetheless, untreated water enthusiasts across the nation study crowdsourced spring maps and leave online comments as if they are reviewing the latest restaurants.</p>
+<p>At Red Rock Spring near Stinson Beach, Calif., the wait can be as long as 40 minutes, but the patrons are said to be friendly and the views spectacular, according to Google reviews.</p>
+<p>“Vibrations for the soul,” one visitor wrote.</p>
+<p>“Pure water pure magic,” wrote another.</p>
+<p>In South Carolina, vendors sell fresh watermelon, oranges and pecans behind a rural church near Blackville where people flock to collect water from two spigots in the ground.</p>
+<p>On any given day, you’ll see spring water believers crouching to fill giant bottles at the headwaters of the Sacramento River in the northern reaches of California.</p>
+<p>In rural Oklahoma, people drive hours to draw from a natural well along the highway thought to contain healing liquid.</p>
+<p>In the past few years, Red Rock Spring, one of the rare Bay Area locations among hundreds nationwide on FindaSpring.Org, has grown more popular than ever.</p>
+<p>Longtime devotees wake at 4:30 a.m. to drive there and back before work to avoid the throngs who arrive during the day.</p>
+<p>Acolytes in the self-proclaimed “Red Rock Spring cult” have planted squash, tomatoes and other vegetables nearby, and built an altar where people leave tokens of gratitude on the rust-colored mountainside: a stack of nickels, a dried flower crown, fresh figs, a marijuana joint.</p>
+<p>Ryan Gonzalez, 44, says that he has been drinking the “miraculous water” from Red Rock Spring for a decade, and that it has made his dreams more vivid and made him feel more resilient against illness.</p>
+<p>A few years ago, he tried to switch to bottled spring water but ultimately returned to his favorite spot, he said.</p>
+<p>Mr. Gonzalez, who owns a “botanical barbershop” in San Francisco that uses plant-based grooming products, said he and his family drank only raw milk, avoided processed foods and stuck to water collected from local natural springs.</p>
+<p>And not everyone who sips from the spring is motivated by a belief in raw water.</p>
+<p>On a recent morning, a UPS driver pulled over in his brown truck to replenish his reusable water bottle, a daily ritual he began after he noticed the crowds at the Highway 1 pullout along his delivery route.</p>
+<p>Several construction workers and campers also showed up to fill their bottles.</p>
+<p>Randy Dahlgren, a professor at the University of California, Davis, who studies watersheds, said that compared with other natural water sources, springs tended to be safer to drink from since they originated deep in the ground and the water was naturally filtered through layers of soil that could remove microbial pathogens.</p>
+<p>Fresh spring water can contain calcium, magnesium and other beneficial nutrients, and may not contain microplastics or “forever chemicals” as some tap water does, he said.</p>
+<p>But raw water can also be tainted with pesticides from nearby farms, contain arsenic that naturally occurs in soil, and harbor bacteria such as E. Coli and salmonella that can make people extremely sick.</p>
+<p>In 2022, 19 people in Montana became ill, including one who was hospitalized, after drinking from what they thought was a spring but was actually creek drainage.</p>
+<p>And the only way to know if the water is safe would be to regularly test it for the more than 90 contaminants that tap water is monitored for, experts said.</p>
+<p>Any single test wouldn’t be sufficient because a rainstorm could shift the flows and introduce sewage runoff from nearby farms or campgrounds.</p>
+<p>“The idea that ‘just because something is natural is automatically good for you’ is inherently flawed,” said Daniel McCurry, a water quality expert at the University of Southern California.</p>
+<p>“There’s all kind of stuff that’s perfectly natural that can make you very sick.”</p>
+<p>Dr. McCurry said he drank from the tap everywhere he went in America, and that a simple, off-the-shelf water filter could remove most of what might worry people, such as trace amounts of pharmaceuticals or lead from old pipes.</p>
+<p>And Dr. Dahlgren wondered why spring enthusiasts were “killing the environment” by driving miles for a sip when safe, high-quality water was available from the tap, especially in the Bay Area.</p>
+<p>More broadly, water experts said that shunning tap water undermined trust in the public water system, which could have dangerous consequences.</p>
+<p>But Red Rock Spring followers remain devout.</p>
+<p>Mr. Gonzalez sometimes worries what he and his family would do if something were to happen to Red Rock Spring, he said.</p>
+<p>His family avoids fluoridated water, and the spring water has become one of the most fundamental parts of his life; his younger daughter has grown up on it, and coffee tastes good to him only if brewed with water from Red Rock Spring.</p>
+<p>“When we go on vacation,” he said, “it’s one of the things I miss the most.”</p>
 
       </div>
       
         <div class="prev-or-next">
           <div class="post-foot-next">
             
-              <a href="/e8d66bd958ba/" target="_self">
+              <a href="/83a769f61b02/" target="_self">
                 <i class="iconfont icon-chevronleft"></i>
                 <span>Prev</span>
               </a>
@@ -256,7 +261,7 @@
           <div class="post-attach">
             <span class="post-pubtime">
               <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-              2025-05-28 08:05:30
+              2025-05-28 08:04:42
             </span>
             
                   <span class="post-categories">
@@ -269,20 +274,8 @@
                     </span>
                     
                     <span class="span--category">
-                      <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%AF%BE/" title="专业课">
-                        <b>#</b> 专业课
-                      </a>
-                    </span>
-                    
-                    <span class="span--category">
-                      <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BF%A1%E6%81%AF%E5%88%86%E6%9E%90/" title="信息分析">
-                        <b>#</b> 信息分析
-                      </a>
-                    </span>
-                    
-                    <span class="span--category">
-                      <a href="/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" title="数学建模">
-                        <b>#</b> 数学建模
+                      <a href="/categories/%E8%80%83%E7%A0%94%E5%A4%8D%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/" title="英语复习">
+                        <b>#</b> 英语复习
                       </a>
                     </span>
                     
@@ -292,14 +285,8 @@
                     <i class="iconfont icon-tags mr-10" title="Tags"></i>
                     
                     <span class="span--tag mr-8">
-                      <a href="/tags/%E4%BF%A1%E6%81%AF%E5%88%86%E6%9E%90/" title="信息分析">
-                        #信息分析
-                      </a>
-                    </span>
-                    
-                    <span class="span--tag mr-8">
-                      <a href="/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" title="数学建模">
-                        #数学建模
+                      <a href="/tags/%E5%A4%96%E5%88%8A%E7%B2%BE%E8%AF%BB/" title="外刊精读">
+                        #外刊精读
                       </a>
                     </span>
                     
@@ -308,7 +295,7 @@
           </div>
           <div class="post-foot-prev">
             
-              <a href="/377b963a574d/" target="_self">
+              <a href="/02e11b1731b6/" target="_self">
                 <span>Next</span>
                 <i class="iconfont icon-chevronright"></i>
               </a>
@@ -318,23 +305,6 @@
       
     </div>
     
-  <div id="btn-catalog" class="btn-catalog">
-    <i class="iconfont icon-catalog"></i>
-  </div>
-  <div class="post-catalog hidden" id="catalog">
-    <div class="title">Contents</div>
-    <div class="catalog-content">
-      
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E7%9A%84%E5%8E%9F%E7%90%86"><span class="toc-text">主成分分析的原理</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E7%9A%84%E6%AD%A5%E9%AA%A4"><span class="toc-text">主成分分析的步骤</span></a></li></ol>
-      
-    </div>
-  </div>
-
-  
-<script src="/js/catalog.js"></script>
-
-
-
 
     
       <div class="comments-container">
@@ -657,12 +627,12 @@
       </a>
       <div class="share-content hidden">
         
-          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E3%80%90%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E3%80%91%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E6%B3%95PCA + '&url=' + https%3A%2F%2Fihanofficial.github.io%2Fe1753a0503c5%2F + '" target="_blank" title="Twitter">
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E3%80%90%E5%A4%96%E5%88%8A%E7%B2%BE%E8%AF%BB%E5%88%86%E4%BA%AB%E3%80%91%EF%BC%82%E5%8E%9F%E6%B0%B4%E7%83%AD%E6%BD%AE%EF%BC%82%EF%BC%9A%E4%B8%80%E7%A7%8D%E8%B6%85%E8%B6%8A%E7%8E%B0%E4%BB%A3%E5%87%80%E5%8C%96%E4%BD%93%E7%B3%BB%E7%9A%84%E8%87%AA%E7%84%B6%E4%B8%BB%E4%B9%89%E5%B0%9D%E8%AF%95 + '&url=' + https%3A%2F%2Fihanofficial.github.io%2F9fe4ef75135b%2F + '" target="_blank" title="Twitter">
             <i class="iconfont icon-twitter"></i>
           </a>
         
         
-          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://ihanofficial.github.io/e1753a0503c5/" target="_blank" title="Facebook">
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://ihanofficial.github.io/9fe4ef75135b/" target="_blank" title="Facebook">
             <i class="iconfont icon-facebooksquare"></i>
           </a>
         
