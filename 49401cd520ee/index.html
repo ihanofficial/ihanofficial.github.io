@@ -205,17 +205,37 @@
 </ol>
 <h1 id="线性规划模型的形式"><a href="#线性规划模型的形式" class="headerlink" title="线性规划模型的形式"></a>线性规划模型的形式</h1><h2 id="一般形式"><a href="#一般形式" class="headerlink" title="一般形式"></a>一般形式</h2>
 $$
+max(或min)z=\sum_{j=1}^{n}c_j x_j\\
 s.t.\begin{cases}
-\sum_{j=1}^{n}a_{ij}  \leq(或=,\geq)  b_i, i =1,2,\cdots m\\
+\sum_{j=1}^{n}a_{ij}  \leq(或=,\geq)b_i, i =1,2,\cdots m\\
 x_j\geq0,j=1,2,\cdots n
 \end{cases}\\
 $$
 
 
-<h2 id="向量形式"><a href="#向量形式" class="headerlink" title="向量形式"></a>向量形式</h2><h2 id="矩阵形式"><a href="#矩阵形式" class="headerlink" title="矩阵形式"></a>矩阵形式</h2><h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><p>求解下列线性规划问题：</p>
+<h2 id="向量形式"><a href="#向量形式" class="headerlink" title="向量形式"></a>向量形式</h2>
+$$
+max(或min)z=c^Tx\\
+s.t.\begin{cases}
+\sum_{j=1}^{n}P_jx_j\leq(或=,\geq)b,
+x\geq0.
+\end{cases}\\
+$$
+
+<h2 id="矩阵形式"><a href="#矩阵形式" class="headerlink" title="矩阵形式"></a>矩阵形式</h2>
+$$
+max(或min)z=c^Tx\\
+s.t.\begin{cases}
+A_x\leq(或=,\geq)b,
+x\geq0.
+\end{cases}\\
+$$
+
+
+<h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><p>求解下列线性规划问题：</p>
 
 $$
-max z = 3x_1-x_2-x_3
+max z = 3x_1-x_2-x_3\\
 s.t.\begin{cases}
 x_1-2x_2+x_3\leq11,\\
 -4x_1+x_2+2x_3\geq3,\\
@@ -299,7 +319,7 @@ $$
           </div>
           <div class="post-foot-prev">
             
-              <a href="/686fd8695cc6/" target="_self">
+              <a href="/1b2e169a90e0/" target="_self">
                 <span>Next</span>
                 <i class="iconfont icon-chevronright"></i>
               </a>
