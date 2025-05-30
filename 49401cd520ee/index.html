@@ -232,20 +232,7 @@ x\geq0.
 $$
 
 
-<h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><p>求解下列线性规划问题：</p>
-
-$$
-max z = 3x_1-x_2-x_3\\
-
-s.t.\begin{cases}
-x_1-2x_2+x_3\leq11,\\
--4x_1+x_2+2x_3\geq3,\\
--2x_1+x_3 = 1,\\
-x_1,x_2,x_3\leq0.
-\end{cases}
-$$
-
-
+<h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><p>求解下列线性规划问题：<br>$$<br>\begin{gather}<br>max z  &#x3D;  3x_1-x_2-x_3\<br>s.t.\begin{cases}<br>x_1-2x_2+x_3\leq11,\<br>-4x_1+x_2+2x_3\geq3,\<br>-2x_1+x_3 &#x3D; 1,\<br>x_1,x_2,x_3\leq0.<br>\end{cases}<br>\end{gather}<br>$$</p>
 <p><strong>解：</strong></p>
 <h2 id="1-问题分析"><a href="#1-问题分析" class="headerlink" title="1. 问题分析"></a>1. 问题分析</h2><p>目标函数为$z&#x3D;3x_1-x_2-x_3$.<br>在scipy.optimize.linprog()函数中默认取最小值，则需要对目标函数系数取相反数。<br>即c &#x3D; [-3,1,1].</p>
 <p>约束条件：</p>
@@ -320,7 +307,7 @@ $$
           </div>
           <div class="post-foot-prev">
             
-              <a href="/ab6d13127381/" target="_self">
+              <a href="/4301da1b739b/" target="_self">
                 <span>Next</span>
                 <i class="iconfont icon-chevronright"></i>
               </a>
