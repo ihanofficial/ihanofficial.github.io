@@ -13,7 +13,7 @@
   
   <title>
     
-      About 
+      Archives 
       
       
       |
@@ -122,71 +122,32 @@
 
 
       <div class="flex-container">
-        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
-<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
 
+<!-- last: 按年份把文章分组，当前遍历到的年份 -->
+<!-- now: 当前遍历到的文章的发布年份 -->
 
-  <!-- LaTex Display -->
-
-  
-    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
-  
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
-    }
-  </script>
-
-
-
-
-
-  <!-- clipboard -->
-
-  
-    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
-  
-  
-<script src="/js/codeCopy.js"></script>
-
-
-
-
-
-
-
-  
-
-  
-
-  
-  <!-- 关于页 url形式：https://yoursite/about/ -->
-    <div class="container about-index">
-      <div class="markdown-body">
-        <p>欢迎来到我的博客</p>
-<p>我是iHan </p>
-<p>生物性别男</p>
-<p>Properties</p>
-<ul>
-<li>乐队键盘手</li>
-<li>AirPods Pro 降噪功能重度体验用户(排练的时候也会戴:P)</li>
-</ul>
-<p>Pages:<br>公众号：知存记</p>
-<p>Skills:</p>
-<ul>
-<li>Python 70%&#96;</li>
-<li>Linux 20%</li>
-<li>C&#x2F;Java 10%</li>
-</ul>
-<p>Contact Me<br>Email <a href="mailto:&#105;&#104;&#97;&#110;&#x6f;&#102;&#102;&#x69;&#99;&#105;&#x61;&#108;&#x40;&#x61;&#x6c;&#105;&#x79;&#117;&#110;&#46;&#x63;&#x6f;&#109;">ihanofficial@aliyun.com</a> </p>
-
+<div class="container archives">
+  <div class="post-list">
+    
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2025</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="">
+        <div class="time-m-d">06-18</div>
+        <div class="title">
+          <a href="/:/post/hash/">
+            <span></span>
+          </a>
+        </div>
       </div>
-    </div>
-  
-
-  
+    
+  </div>
+</div>
 
         
 <div class="footer">
@@ -464,24 +425,6 @@
 
 
         
-  
-    <div class="share-icon tools-bar-item">
-      <a href="javascript: void(0)" id="share-icon">
-        <i class="iconfont iconshare"></i>
-      </a>
-      <div class="share-content hidden">
-        
-          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + about + '&url=' + https%3A%2F%2Fihanofficial.github.io%2Fabout%2Findex.html + '" target="_blank" title="Twitter">
-            <i class="iconfont icon-twitter"></i>
-          </a>
-        
-        
-          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://ihanofficial.github.io/about/index.html" target="_blank" title="Facebook">
-            <i class="iconfont icon-facebooksquare"></i>
-          </a>
-        
-      </div>
-    </div>
   
   
 <script src="/js/shares.js"></script>
