@@ -13,6 +13,11 @@
   
   <title>
     
+      我的项目总览 
+      
+      
+      |
+    
      iHan&#39;s Blog
   </title>
 
@@ -117,82 +122,151 @@
 
 
       <div class="flex-container">
-        <div class="container index">
-  <div class="post-list">
-    <!-- 遍历渲染文章 -->
-    
-      <div class="post-item" title="我的项目总览">
-        <div class="time-m-d">2025-06-23</div>
-        <div class="title">
-          <a href="/post/05d293f4bf83/">
-            
-              
-                <span><span title="Pinned" class="icon iconfont icon-pin-top post-top"></span>我的项目总览</span>
-              
-            
-          </a>
-        </div>
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">我的项目总览</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2025-06-23 13:48:13
+        </span>
+        
       </div>
-    
-      <div class="post-item" title="【外刊精读】拒绝共享的生存智慧">
-        <div class="time-m-d">2025-06-23</div>
-        <div class="title">
-          <a href="/post/bd2e46464867/">
-            
-              
-                <span>【外刊精读】拒绝共享的生存智慧</span>
-              
-            
-          </a>
-        </div>
+      <div class="markdown-body">
+        <h1 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h1><p>Hexo本地编辑器(因为我的知识库和文章库有些冲突，所以打算用Python写一个简单可用的)</p>
+<h1 id="Doing"><a href="#Doing" class="headerlink" title="Doing"></a>Doing</h1><h1 id="Done-Archived"><a href="#Done-Archived" class="headerlink" title="Done&#x2F;Archived"></a>Done&#x2F;Archived</h1><h2 id="Need-Followup"><a href="#Need-Followup" class="headerlink" title="Need Followup"></a>Need Followup</h2><p>基于Python的图书管理系统</p>
+<p>亚马逊电商数据分析-订阅盒子类</p>
+<p>Bible文本分析(非常水的课程作业)</p>
+<blockquote>
+<p>如果按我自己的想法，工作量是完全不够的，数据分析结果也不是很满意，但是到截稿日，那只能追求有一个像样的结课报告了，如果之后有时间会把算法重构一下。<br>P.S. 文学性强的文本用来做文本数据分析，信息的可利用度会直线下降…… 尤其是利用非常初步的算法去推算极为复杂的文本。</p>
+</blockquote>
+<h2 id="Completed"><a href="#Completed" class="headerlink" title="Completed"></a>Completed</h2><blockquote>
+<p>待施工 🏗️</p>
+</blockquote>
+
       </div>
-    
-      <div class="post-item" title="【外刊精读】在太空发酵的味噌赋予其独特风味">
-        <div class="time-m-d">2025-06-23</div>
-        <div class="title">
-          <a href="/post/7dc47682195d/">
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
             
-              
-                <span>【外刊精读】在太空发酵的味噌赋予其独特风味</span>
-              
+              <a href="/post/bd2e46464867/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
             
-          </a>
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2025-06-23 13:48:13
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
-      </div>
+      
+    </div>
     
-      <div class="post-item" title="【外刊精读】别用他人的地图偷走了你的方向感">
-        <div class="time-m-d">2025-06-21</div>
-        <div class="title">
-          <a href="/post/48834204f83c/">
-            
-              
-                <span>【外刊精读】别用他人的地图偷走了你的方向感</span>
-              
-            
-          </a>
-        </div>
-      </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Todo"><span class="toc-text">Todo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Doing"><span class="toc-text">Doing</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Done-Archived"><span class="toc-text">Done&#x2F;Archived</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Need-Followup"><span class="toc-text">Need Followup</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Completed"><span class="toc-text">Completed</span></a></li></ol></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
-      <div class="post-item" title="LaTex速查表">
-        <div class="time-m-d">2025-06-18</div>
-        <div class="title">
-          <a href="/post/8de5e55a2af9/">
-            
-              
-                <span>LaTex速查表</span>
-              
-            
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+  <div id="gitalk-container"></div>
+
+  <script>
+    function loadGitalkSuc() {
+      const gitalk = new Gitalk({
+        clientID: 'Ov23li6Sn9H5Pw8X8VPl',
+        clientSecret: '41b54594a4a116dd1e6d79320493a3b161ffa875',
+        repo: 'ihanofficial.github.io',
+        owner: 'ihanofficial',
+        admin: ['ihanofficial'],
+        id: location.pathname,
+        distractionFreeMode: false
+      })
+
+      gitalk.render('gitalk-container')
+    }
+  </script>
+  
+    <link rel="stylesheet" href="/plugins/gitalk.css">
+    <script type="text/javascript" src="/plugins/gitalk.min.js" onload="loadGitalkSuc(this)"></script>
+  
+
+
+
       </div>
     
   </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+
 
         
 <div class="footer">
@@ -470,6 +544,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE%E6%80%BB%E8%A7%88 + '&url=' + https%3A%2F%2Fihanofficial.github.io%2Fpost%2F05d293f4bf83%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://ihanofficial.github.io/post/05d293f4bf83/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>

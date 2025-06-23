@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>我的项目总览</title>
+      <link href="//post/05d293f4bf83/"/>
+      <url>//post/05d293f4bf83/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h1><p>Hexo本地编辑器(因为我的知识库和文章库有些冲突，所以打算用Python写一个简单可用的)</p><h1 id="Doing"><a href="#Doing" class="headerlink" title="Doing"></a>Doing</h1><h1 id="Done-Archived"><a href="#Done-Archived" class="headerlink" title="Done&#x2F;Archived"></a>Done&#x2F;Archived</h1><h2 id="Need-Followup"><a href="#Need-Followup" class="headerlink" title="Need Followup"></a>Need Followup</h2><p>基于Python的图书管理系统</p><p>亚马逊电商数据分析-订阅盒子类</p><p>Bible文本分析(非常水的课程作业)</p><blockquote><p>如果按我自己的想法，工作量是完全不够的，数据分析结果也不是很满意，但是到截稿日，那只能追求有一个像样的结课报告了，如果之后有时间会把算法重构一下。<br>P.S. 文学性强的文本用来做文本数据分析，信息的可利用度会直线下降…… 尤其是利用非常初步的算法去推算极为复杂的文本。</p></blockquote><h2 id="Completed"><a href="#Completed" class="headerlink" title="Completed"></a>Completed</h2><blockquote><p>待施工 🏗️</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【外刊精读】拒绝共享的生存智慧</title>
       <link href="//post/bd2e46464867/"/>
       <url>//post/bd2e46464867/</url>
