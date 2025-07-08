@@ -13,8 +13,8 @@
   
   <title>
     
-      Tag 
-       : 文章导航
+      Windows使用VMWare WorkStation安装macOS虚拟机 
+      
       
       |
     
@@ -122,39 +122,204 @@
 
 
       <div class="flex-container">
-        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<div class="container tag-details">
-  <div class="content-title">
-    <h2>
-      <span>文章导航</span>
-    </h2>
+
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">Windows使用VMWare WorkStation安装macOS虚拟机</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2025-07-08 21:18:48
+        </span>
+        
+              <span class="post-categories">
+                <i class="iconfont icon-bookmark" title="Categories"></i>
+                
+                <span class="span--category">
+                  <a href="/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" title="效率工具">
+                    <b>#</b> 效率工具
+                  </a>
+                </span>
+                
+                <span class="span--category">
+                  <a href="/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="使用教程">
+                    <b>#</b> 使用教程
+                  </a>
+                </span>
+                
+              </span>
+          
+              <span class="post-tags">
+                <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                
+                <span class="span--tag mr-8">
+                  <a href="/tags/%E6%95%99%E7%A8%8B/" title="教程">
+                    #教程
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <p>因为博主想要制作iOS App, 但是手边没有Macbook，只能先采用这种方法过渡一下了<br>具体步骤如下：</p>
+<h1 id="1-安装VMWare-WorkStation"><a href="#1-安装VMWare-WorkStation" class="headerlink" title="1 安装VMWare WorkStation"></a>1 安装VMWare WorkStation</h1><h1 id="2-打上unlock补丁"><a href="#2-打上unlock补丁" class="headerlink" title="2 打上unlock补丁"></a>2 打上unlock补丁</h1><p>这一步是为了激活虚拟机中的macos选项</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/post/9f0ac08aa8c5/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2025-07-08 21:18:48
+            </span>
+            
+                  <span class="post-categories">
+                    <i class="iconfont icon-bookmark" title="Categories"></i>
+                    
+                    <span class="span--category">
+                      <a href="/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" title="效率工具">
+                        <b>#</b> 效率工具
+                      </a>
+                    </span>
+                    
+                    <span class="span--category">
+                      <a href="/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="使用教程">
+                        <b>#</b> 使用教程
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                    
+                    <span class="span--tag mr-8">
+                      <a href="/tags/%E6%95%99%E7%A8%8B/" title="教程">
+                        #教程
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+              <a href="/post/28c685f3b419/" target="_self">
+                <span>Next</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+    </div>
+    
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
   </div>
-  
-    <div class="post-list">
-      <div class="post-item" title="【外刊精读】工作中使用AI使身心状态会好">
-        <span class="time-m-d">2025-07-08</span>
-        <a href="/post/28c685f3b419/">
-          <span>【外刊精读】工作中使用AI使身心状态会好</span>
-        </a>
-      </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E5%AE%89%E8%A3%85VMWare-WorkStation"><span class="toc-text">1 安装VMWare WorkStation</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E6%89%93%E4%B8%8Aunlock%E8%A1%A5%E4%B8%81"><span class="toc-text">2 打上unlock补丁</span></a></li></ol>
+      
     </div>
+  </div>
+
   
-    <div class="post-list">
-      <div class="post-item" title="考研英语一阅读材料导航">
-        <span class="time-m-d">2025-06-28</span>
-        <a href="/post/f7f73c6aaf5e/">
-          <span>考研英语一阅读材料导航</span>
-        </a>
+<script src="/js/catalog.js"></script>
+
+
+
+
+    
+      <div class="comments-container">
+        
+
+
+
+
+
+
+  <div id="gitalk-container"></div>
+
+  <script>
+    function loadGitalkSuc() {
+      const gitalk = new Gitalk({
+        clientID: 'Ov23li6Sn9H5Pw8X8VPl',
+        clientSecret: '41b54594a4a116dd1e6d79320493a3b161ffa875',
+        repo: 'ihanofficial.github.io',
+        owner: 'ihanofficial',
+        admin: ['ihanofficial'],
+        id: location.pathname,
+        distractionFreeMode: false
+      })
+
+      gitalk.render('gitalk-container')
+    }
+  </script>
+  
+    <link rel="stylesheet" href="/plugins/gitalk.css">
+    <script type="text/javascript" src="/plugins/gitalk.min.js" onload="loadGitalkSuc(this)"></script>
+  
+
+
+
       </div>
-    </div>
-  
-  <nav class="post-navigation">
     
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+  </div>
+
 
         
 <div class="footer">
@@ -432,6 +597,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + Windows%E4%BD%BF%E7%94%A8VMWare%20WorkStation%E5%AE%89%E8%A3%85macOS%E8%99%9A%E6%8B%9F%E6%9C%BA + '&url=' + https%3A%2F%2Fihanofficial.github.io%2Fpost%2F20690d7e5646%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://ihanofficial.github.io/post/20690d7e5646/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
