@@ -13,7 +13,7 @@
   
   <title>
     
-      archive_a: 2025/6 
+      公告 
       
       
       |
@@ -122,167 +122,131 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2025</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">公告</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2025-08-17 14:46:49
+        </span>
+        
+      </div>
+      <div class="markdown-body">
+        <p>有一些天没有上博客更新了(其实差不多有一个月吧)</p>
+<p>忙完一段时间之后再回看其他内容</p>
+<p>自我感觉博客需要重构 请给我一点时间</p>
+<p>让我重新整理好背包 重新上路</p>
+<p>目测应该是明年更新了(哭) 今年还有一些安排需要完成</p>
+<p>我会带着新内容回来的</p>
+<p>20250817留</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/post/28c685f3b419/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2025-08-17 14:46:49
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="公告">
-        <div class="time-m-d">08-17</div>
-        <div class="title">
-          <a href="/post/ff79d76d38d2/">
-            <span>公告</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="【外刊精读】工作中使用AI使身心状态会好">
-        <div class="time-m-d">07-08</div>
-        <div class="title">
-          <a href="/post/28c685f3b419/">
-            <span>【外刊精读】工作中使用AI使身心状态会好</span>
-          </a>
-        </div>
-      </div>
+
     
-      <div class="post-item" title="Windows使用VMWare WorkStation安装macOS虚拟机">
-        <div class="time-m-d">07-06</div>
-        <div class="title">
-          <a href="/post/20690d7e5646/">
-            <span>Windows使用VMWare WorkStation安装macOS虚拟机</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【外刊精读】地球将在7月和8月加速自转">
-        <div class="time-m-d">07-03</div>
-        <div class="title">
-          <a href="/post/9f0ac08aa8c5/">
-            <span>【外刊精读】地球将在7月和8月加速自转</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【外刊精读】玻璃瓶饮料微塑料含量可能超塑料瓶50倍">
-        <div class="time-m-d">07-03</div>
-        <div class="title">
-          <a href="/post/0ced7b73b689/">
-            <span>【外刊精读】玻璃瓶饮料微塑料含量可能超塑料瓶50倍</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【外刊精读】一种喝咖啡的方式或能助你长寿">
-        <div class="time-m-d">07-03</div>
-        <div class="title">
-          <a href="/post/9023ea134a6a/">
-            <span>【外刊精读】一种喝咖啡的方式或能助你长寿</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【外刊精读】低调的米色成了“老钱”最爱的颜色">
-        <div class="time-m-d">07-02</div>
-        <div class="title">
-          <a href="/post/a9deac37a7c4/">
-            <span>【外刊精读】低调的米色成了“老钱”最爱的颜色</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【外刊精读】照片过载可能正在扭曲我们的记忆能力">
-        <div class="time-m-d">07-02</div>
-        <div class="title">
-          <a href="/post/c026a31bd76f/">
-            <span>【外刊精读】照片过载可能正在扭曲我们的记忆能力</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【英一阅读】公司数据管理的重要性">
-        <div class="time-m-d">06-28</div>
-        <div class="title">
-          <a href="/post/1dde02ddcfe1/">
-            <span>【英一阅读】公司数据管理的重要性</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【英一阅读】西班牙和葡萄牙前殖民地独立后面临的问题">
-        <div class="time-m-d">06-28</div>
-        <div class="title">
-          <a href="/post/e75c92fa307a/">
-            <span>【英一阅读】西班牙和葡萄牙前殖民地独立后面临的问题</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="考研英语一阅读材料导航">
-        <div class="time-m-d">06-28</div>
-        <div class="title">
-          <a href="/post/f7f73c6aaf5e/">
-            <span>考研英语一阅读材料导航</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="我的项目总览">
-        <div class="time-m-d">06-23</div>
-        <div class="title">
-          <a href="/post/05d293f4bf83/">
-            <span>我的项目总览</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【外刊精读】拒绝共享的生存智慧">
-        <div class="time-m-d">06-23</div>
-        <div class="title">
-          <a href="/post/bd2e46464867/">
-            <span>【外刊精读】拒绝共享的生存智慧</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【外刊精读】在太空发酵的味噌赋予其独特风味">
-        <div class="time-m-d">06-23</div>
-        <div class="title">
-          <a href="/post/7dc47682195d/">
-            <span>【外刊精读】在太空发酵的味噌赋予其独特风味</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="【外刊精读】别用他人的地图偷走了你的方向感">
-        <div class="time-m-d">06-21</div>
-        <div class="title">
-          <a href="/post/48834204f83c/">
-            <span>【外刊精读】别用他人的地图偷走了你的方向感</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="LaTex速查表">
-        <div class="time-m-d">06-18</div>
-        <div class="title">
-          <a href="/post/8de5e55a2af9/">
-            <span>LaTex速查表</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+  <div id="gitalk-container"></div>
+
+  <script>
+    function loadGitalkSuc() {
+      const gitalk = new Gitalk({
+        clientID: 'Ov23li6Sn9H5Pw8X8VPl',
+        clientSecret: '41b54594a4a116dd1e6d79320493a3b161ffa875',
+        repo: 'ihanofficial.github.io',
+        owner: 'ihanofficial',
+        admin: ['ihanofficial'],
+        id: location.pathname,
+        distractionFreeMode: false
+      })
+
+      gitalk.render('gitalk-container')
+    }
+  </script>
+  
+    <link rel="stylesheet" href="/plugins/gitalk.css">
+    <script type="text/javascript" src="/plugins/gitalk.min.js" onload="loadGitalkSuc(this)"></script>
+  
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -560,6 +524,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E5%85%AC%E5%91%8A + '&url=' + https%3A%2F%2Fihanofficial.github.io%2Fpost%2Fff79d76d38d2%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://ihanofficial.github.io/post/ff79d76d38d2/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
