@@ -27,14 +27,14 @@ theme:
     - toc.follow
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: grey
       toggle:
         icon: material/brightness-7
         name: 切换至暗色模式
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: grey
       toggle:
         icon: material/brightness-4
         name: 切换至亮色模式
