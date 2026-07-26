@@ -101,19 +101,28 @@ plugins:
       page_read_time: true
 
 nav:
-  - 首页:
+  - 主页 Home:
       - index.md
       - 站点统计: statistics.md
-  - 开始:
-      - 简介: getting-started/index.md
-      - 安装与本地预览: getting-started/installation.md
-      - 编写文档: getting-started/writing.md
-  - 指南:
-      - Markdown 扩展: guide/markdown.md
-      - 代码块与高亮: guide/code-blocks.md
-      - 提示与警告框: guide/admonitions.md
-  - 关于:
-      - 关于本站: about/index.md
+  - 研究 Research:
+      - research/index.md
+  - 学习 Learning:
+      - learning/index.md
+  - 项目 Projects:
+      - projects/index.md
+  - 阅读 Reading:
+      - reading/index.md
+  - 杂项 Misc:
+      - misc/index.md
+      - 归档 Legacy:
+          - getting-started/index.md
+          - 安装与本地预览: getting-started/installation.md
+          - 编写文档: getting-started/writing.md
+          - Markdown 扩展: guide/markdown.md
+          - 代码块与高亮: guide/code-blocks.md
+          - 提示与警告框: guide/admonitions.md
+  - 关于 About:
+      - about/index.md
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont/lxgwwenkaiscreen.css
