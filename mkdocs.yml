@@ -38,9 +38,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换至亮色模式
-  font:
-    text: Noto Sans SC
-    code: JetBrains Mono
+  font: false
   icon:
     logo: material/book-open-variant
   favicon: assets/favicon.png
@@ -111,6 +109,11 @@ nav:
       - 提示与警告框: guide/admonitions.md
   - 关于:
       - 关于本站: about/index.md
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont/lxgwwenkaiscreen.css
+  - https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap
+  - stylesheets/custom.css
 
 extra_javascript:
   - javascripts/mathjax.js
