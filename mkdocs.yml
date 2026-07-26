@@ -121,6 +121,8 @@ nav:
           - Markdown 扩展: guide/markdown.md
           - 代码块与高亮: guide/code-blocks.md
           - 提示与警告框: guide/admonitions.md
+  - 友链 Links:
+      - links.md
   - 关于 About:
       - about/index.md
 
