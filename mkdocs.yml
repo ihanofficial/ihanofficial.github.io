@@ -96,9 +96,14 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
       type: date
+  - statistics:
+      page_statistics: true
+      page_read_time: true
 
 nav:
-  - 首页: index.md
+  - 首页:
+      - index.md
+      - 站点统计: statistics.md
   - 开始:
       - 简介: getting-started/index.md
       - 安装与本地预览: getting-started/installation.md
