@@ -1,5 +1,6 @@
 ---
 statistics: True
+comments: true
 ---
 
 # 站点统计

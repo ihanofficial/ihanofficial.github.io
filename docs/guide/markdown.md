@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Markdown 扩展
 
 Material for MkDocs 在标准 Markdown 之上提供了丰富的扩展，让文档更具表现力。

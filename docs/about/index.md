@@ -1,18 +1,34 @@
+---
+comments: true
+---
+
 # 关于本站
 
-本站由 [ihanofficial](https://github.com/ihanofficial) 维护，
-使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 构建，
-通过 [GitHub Actions](https://docs.github.com/en/actions) 自动部署到 GitHub Pages。
+关于我：
+我是iHan 
 
-## 技术栈
+field: 信息资源管理/信息组织，信息检索；计算社会科学；软件开发
 
-- **站点生成器**：[MkDocs](https://www.mkdocs.org/) + [Material 主题](https://squidfunk.github.io/mkdocs-material/)
-- **托管平台**：[GitHub Pages](https://pages.github.com/)
-- **CI/CD**：[GitHub Actions](https://docs.github.com/en/actions)
-- **版本控制**：[Git](https://git-scm.com/) / [GitHub](https://github.com/)
+在这些地方学习过
+2010-2016 铜陵市爱国小学
+2016-2019 铜陵市第十二中学
+2019-2022 铜陵市智通职业技术学校
+2022-2026 合肥经济学院，网络工程，学士学位
 
-## 反馈
+欢迎以上和我同行过的校友与我联系
 
-如有建议或问题，欢迎在 [GitHub 仓库](https://github.com/ihanofficial/ihanofficial.github.io) 提交 Issue。
+个人特质：
+- 校园乐队键盘手 ~~目前积极寻求表演机会中~~
+- AirPods 降噪功能重度体验者
+
+
+编程语言
+- 非常熟练：Python
+- 比较熟练：Java C
+
+联系我：
+- Email ihanofficial@aliyun.com
+- 公众号 知存记（~~很久没更新~~
+
 
 ---

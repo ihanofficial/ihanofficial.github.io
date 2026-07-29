@@ -9,6 +9,7 @@ repo_name: ihanofficial/ihanofficial.github.io
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
   features:
     - navigation.tabs

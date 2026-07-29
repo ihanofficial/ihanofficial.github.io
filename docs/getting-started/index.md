@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 简介
 
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 是一个基于 MkDocs 的静态站点生成器主题，
